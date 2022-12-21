@@ -9,3 +9,4 @@ Then User see all Tabs from menu
   |Insights|
   |News    |
   |Contact |
+  Then Click on "Insights" tab

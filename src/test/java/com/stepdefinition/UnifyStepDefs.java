@@ -75,4 +75,8 @@ public class UnifyStepDefs {
 
     }
 
+    @Then("Click on {string} tab")
+    public void clickOnTab(String tab) {
+        results.get(tab).click();
+    }
 }
